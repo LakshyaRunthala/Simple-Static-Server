@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>User Page</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <h1>Welcome to the User Page</h1>
+  <header class="header">
+    <h2>User Dashboard</h2>
+    <nav>
+      
+    </nav>
+    <h2>If you want to create a user!</h2>
+    <form action="/user" method="POST">
+      <input type="text" name="name" placeholder="Enter User Name">
+      <button type="submit">Create User</button>
+    </form>
+    <br>
+    <a href="/admin">Go to Admin page</a>
+  </header>
+  <main>
+    <p>Welcome! Here's your user content.</p>
+  </main>
+  <div class = "adminCreate">
+    <h2>If you want to create an admin! </h2>
+    <form action="/admin" method="POST">
+      <input type="text" name="name" placeholder="Enter Admin Name">
+      <button type="submit">Create Admin</button>
+    </form>
+  </div>
+
+  </form>
+
+  <footer>
+    <p>&copy; 2025 My Basic Website</p>
+  </footer>
+</body>
+
+</html>
